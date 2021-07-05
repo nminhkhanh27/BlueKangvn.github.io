@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #ffffff;
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+/* ------------------------------ */ 
+
+header{
+    background-image: linear-gradient(45deg, rgb(138, 182, 214, 0.8) 55%,rgba(124, 124, 124, 0.85)), url('../img/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.logo1{
+    width: 250px;
+    float: left;
+    margin-top: -10px;
+    margin-left: 80px;
+}
+
+.main{
+    float:right;
+    list-style: none;
+    margin-right: 50px;
+    margin-top: 70px;
+}
+
+.main li{
+    display: inline-block;
+   
+    margin-right: 30px;
+}
+
+.main li a {
+    text-decoration: none;
+    color:#ffffff;
+    font-size: 100%;
+    font-weight: 700;
+    transition: border-bottom 0.3s;
+    padding: 5px 0;
+}
+
+.main li a:hover,
+.main li a:active{
+    border-bottom: 2px solid #ffffff;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.main-btn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-60%, -95%);
+    width: 1140px;
+}
